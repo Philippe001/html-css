@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Crountch-One-Piece-Jolly-Roger-Arlong.ico" type="image/x-icon">
+    <style>
+        body {color: firebrick;}
+    </style>
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <h2>tente abrir essas imagens em dispositivos diferentes</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+       <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png" >
+        <img src="imagens/foto-G.png" alt="Imagem grande">
+    </picture>
+    <h1>reproduzindo um audio</h1>
+    <p>vamos aprender a reproduzir audio em html</p>
+    <ol>
+   <dt><audio src="midia/12 Grams - TrackTribe.mp3" controls autoplay></audio>
+    <!--MP3,wav,ogg-->
+  <dt> <audio preload="metadata" autoplay controls loop>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+       <source src="midia/guanacast-33.ogg" type="audio/ogg">
+       <source src="midia/guanacast-33.wav" type="audio/wav">
+       <p>infelizmente seu navegador não consegue reproduzir audio <a href="midia/guanacast-33.mp3">click aqui para baixar seu MP3</a></p>
+   </audio>
+   </ol>
+
+  
+    
+</body>
+</html>
