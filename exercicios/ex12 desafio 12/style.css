@@ -68,15 +68,23 @@ section.imagem{
     background-color: rgb(63, 57, 57);
     color: white; 
 }
+section > p {
+    padding-bottom: 2em;
+}
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.308);
     
 }
+section#img01{
+    background-image: url('../');
 
+}
+section#img02{
+    background-image: url('../ex12\ desafio\ 12/#img02');
 
-
+}
 
 footer {
     background-color: black;
