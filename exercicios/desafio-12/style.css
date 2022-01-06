@@ -67,22 +67,28 @@ section.normal {
 section.imagem{
     background-color: rgb(63, 57, 57);
     color: white; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.418);
+    background-attachment: fixed;
 }
 section > p {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.356);
+    text-shadow: 1px 1px 0px black;
     
 }
 section#img01{
     background-image: url('../desafio-12/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
 
 }
 section#img02{
     background-image: url('../desafio-12/imagens/background002.jpg');
+    background-size: cover;
 
 }
 
