@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            font-weight: bolder;
+            border: 2px solid red;
+        }
+        table.animes{
+            border-collapse: collapse;
+            border: 1.5px solid rgba(0, 0, 0, 0.082);
+            border-collapse: separate;
+            
+        }
+        td.animes{ border: 1px solid rgba(0, 0, 0, 0.089);
+            padding: 0px;
+            margin: 50px;
+            border-collapse: separate;
+
+        }
+        tr.linha {
+            background-color: gray;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+
+        }
+        td.linha{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>minha primeira tabela</h1>
+    <table>
+        <!--hierarquia de tableas (simples)
+            Table-> Tabela
+            Table row -> linha de tabela
+            Table header -> cabeçalho de tabelas
+            table date -> dados de tabela
+
+        -->
+        <tr> <!--primeira linha-->
+            <td> A1</td>
+            <td>B1</td>
+            <Td>C1</Td>
+        </tr>
+        <tr class="linha"> <!--segunda linha-->
+            <td>A2</td>
+            <Td>B2</Td>
+            <Td>C2</Td>
+        </tr>
+        <tr> <!--terceira linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <Td>C3</Td>
+        </tr>
+        <tr> <!--Quarta linha-->
+            <td class="linha">A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+    <table class="animes">
+        <h1>test </h1>
+        <tr class="animes">
+            <td class="animes"><a href="https://unionleitor.top/manga/6-worlds-of-cultivation" target="_blank"> <img src="imagens/2c6ee319.jpg" alt="test" width="150px" height="200px"></a></td>
+            <td class="animes"> <a href="https://unionleitor.top/manga/chaos-alchemist" target="_blank"> <img src="imagens/2d666018.jpg" alt="test" width="150px" height="200px"></a></td>
+            <td class="animes"> <a href="https://unionleitor.top/manga/eschaton-game" target="_blank"><img src="imagens/f5858627.jpg" alt="test" width="150px" height="200px"></a></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
