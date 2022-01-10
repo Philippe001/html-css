@@ -50,6 +50,7 @@ header a, footer a {
 }
 header a:hover, footer a:hover {
     text-decoration: underline;
+    color: pink;
 }
 section{
     font-size: 3.5vh;
